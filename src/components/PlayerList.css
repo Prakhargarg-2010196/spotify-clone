@@ -1,0 +1,53 @@
+.player-playlist-container{
+    padding:20px;
+    height:100%;
+    overflow:scroll;
+}
+.player-playlist-header{
+    margin-top:30px;
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.playlist-image-card{
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.G8ggETwq_tsMsACiYPo7xQEgDY%26pid%3DApi&f=1&ipt=2a3c0ed8abf98a9f8859c38c80e212369800dd507d51dde18884a80637b1ce04&ipo=images');
+    background-size: cover;
+}
+
+.playlist-body {
+    color: #ededed;
+}
+
+.playlist-body h1 {
+    font-size: 2.5rem;
+}
+
+.playlist-list {
+    color: #dcdcdc;
+    margin-top: 30px;
+    display: flex;
+}
+
+.playlist-list .playlist-list-id {
+    width: 10%;
+}
+
+.playlist-list .playlist-list-title {
+    width: 40%;
+}
+
+.playlist-list .playlist-list-album {
+    width: 40%;
+}
+
+.playlist-list .playlist-list-duration {
+    width: 10%;
+}
+
+.playlist-list-container {
+    height: 40vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,9 @@
+.container{
+    height: 6vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    padding:15px;
+    box-shadow: 0 2px 4px 0px darkgreen;
+    /* x-axis y-axis blur spread */
+}
